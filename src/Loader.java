@@ -52,6 +52,18 @@ public class Loader {
         for (i=0; i<arr1.length; i++){
             System.out.println(arr1[i]);
         }
+        System.out.println("\n");
+
+        System.out.println(factorial(4));
+    }
+
+    static int factorial (int n){
+       int a=1;
+       for(int i=1; i<=n;i++)
+       {
+           a=a*i;
+       }
+       return a;
     }
 }
 
